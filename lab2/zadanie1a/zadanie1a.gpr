@@ -1,0 +1,9 @@
+project zadanie1a is
+   for Main use ("zadanie1a.adb");
+   for Object_Dir use "obj";
+
+   package Compiler is
+      for Default_Switches ("Ada") use ("-g", "-O2", "-gnat05", "-gnatX0");
+   end Compiler;
+
+end zadanie1a;

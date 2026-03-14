@@ -1,0 +1,22 @@
+from math import sqrt 
+def is_prime(n):
+    if n <=1:
+        return False
+    if n ==2:
+        return True
+    if n%2 ==0:
+        return False
+    i = 3
+    while i*i <= n:
+        if n % i == 0:
+            return False
+        i += 2
+    return True
+def main():
+    a = int(input("Wprowadz liczbe: "))
+    if is_prime(a):
+        print(f"Liczba {a} jest liczba pierwsza.")
+    else:
+        print(f"Liczba {a} nie jest liczba pierwsza.")
+if __name__ == "__main__":
+    main()
