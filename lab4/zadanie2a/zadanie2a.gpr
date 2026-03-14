@@ -1,0 +1,9 @@
+project zadanie2a is
+   for Source_Dirs use (".");
+   for Object_Dir use "obj";
+   for Main use ("zadanie2a.adb");
+
+   package Compiler is
+      for Default_Switches ("Ada") use ("-g", "-O2", "-Wall", "-Wextra");
+   end Compiler;
+end zadanie2a;

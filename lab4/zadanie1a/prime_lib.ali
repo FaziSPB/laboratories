@@ -1,0 +1,66 @@
+V "GNAT Lib v13"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+
+U prime_lib%b		prime_lib.adb		f5a321df NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+
+U prime_lib%s		prime_lib.ads		f70a078f EE NE OO PK
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-numeri.ads		20240521074738 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20240521074738 dc1b3a37 ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20240521074738 58d8ffc8 ada.numerics.generic_elementary_functions%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D prime_lib.ads		20251124134156 f70a078f prime_lib%s
+D prime_lib.adb		20251124134424 deb21c67 prime_lib%b
+D system.ads		20240521074738 426dafb8 system%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+G a e
+G c Z s b [is_prime prime_lib 3 13 none]
+G c Z s b [prime prime_lib 5 13 none]
+G c Z s b [prime_numbers prime_lib 7 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 7|1r6 1r45
+X 2 a-numeri.ads
+16K13*Numerics 35e17 7|1r10 1r49
+X 3 a-nuelfu.ads
+18K22*Elementary_Functions[4|39] 7|1w19 1r58
+X 4 a-ngelfu.ads
+53V13*Sqrt{float} 7|79s27[3|18]
+X 6 prime_lib.ads
+1K9*Prime_Lib 9l5 9e14 7|3b14 111l5 111t14
+3V13*Is_Prime{boolean} 3>23 7|5b13 28l8 28t16
+3i23 N{integer} 7|5b23 6r22 9r10 12r10 15r10
+5V13*Prime{natural} 5>20 7|30b13 65l8 65t13
+5i20 N{natural} 7|30b20 31r30 36r10 40r17 64r23
+7V13*Prime_Numbers{natural} 7>28 7|67b13 109l8 109t21
+7i28 N{natural} 7|67b28 68r33 79r38 84r27 103r10
+X 7 prime_lib.adb
+6i7 A{integer} 20r13 21r13
+7i7 I{integer} 19m7 20r18 20r22 21r19 24m10 24r15
+31a7 Pierwsze(natural) 46r21 58m16 64r14
+32i7 Liczba{natural} 47r27 50r19 58r31 61m10 61r20
+33i7 C{natural} 40r13 45r27 57m16 57r21 58r25
+34i7 I{natural}
+42b13 Jest_Pierwsza{boolean} 51m19 56r16
+43i13 P{natural} 46m16 47r19 47r23 50r30
+45i17 K{integer} 46r30
+68A12 Sieve(boolean)<integer> 69r11 71r47 91r38
+69a7 S{68A12} 107m21 107r21 108r27
+71U17 Compute_Sieve 71b17 71=32 90l11 90t24 107s7
+71a32 S_Arr{68A12} 75r19 76m13 81r19 82r16 85m19
+72i10 J{natural} 83m16 84r22 85r25 86m19 86r24
+73i10 Limit{integer} 79m10 81r34
+75i14 I{integer} 76r19
+81i14 I{integer} 82r22 83r21 83r25 86r28
+91V16 Count_Primes{natural} 91b16 91>30 100l11 100t23 108s14
+91a30 S_Arr{68A12} 94r19 94r34 95r16
+92i10 Count{natural} 96m16 96r25 99r17
+94i14 I{integer} 95r22
+
